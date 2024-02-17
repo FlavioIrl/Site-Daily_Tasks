@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tasks</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lista de Tarefas</h1>
+            <button type="button" id="adicionar-tarefa">Nova tarefa</button>
+        </header>
+        <form id="form-adicionar">
+            <p>Nome da tarefa:</p>
+            <input type="text" id="novaTarefa" required>
+            <button id="botao-adicionar" type="submit">Adicionar+</button>
+            <button id="botao-cancelar" type="reset">Cancelar</button>
+        </form>
+        <div id="lista-tarefa"></div>
+            
+            <footer>
+                <p>
+                    &copy; - Desenvolvido por <a href="https://www.linkedin.com/in/flávio-irala-pereira-16a2ab22b/">Flavio Irala</a> <br> 2024 - Aluno (Full Stack Python - EBAC)
+                </p>
+            </footer>
+        <!--
+        <table>
+            <tbody id="table-tarefa">
+                <tr>
+                    <th>Lavar a louça</th>
+                    <button id="concluido-btn">Concluido</button>
+                    <button>Excluir</button>
+                </tr>
+                <tr>
+                    <th>Arrumar a casa</th>
+                    <button id="concluido-btn">Concluido</button>
+                    <button>Excluir</button>
+                </tr>
+                <tr>
+                    <th>Estuda 30 min</th>
+                    <button id="concluido-btn">Concluido</button>
+                    <button>Excluir</button>
+                </tr>
+                <tr>
+                    <th>Arrumar a casa</th>
+                    <button id="concluido-btn">Concluido</button>
+                    <button>Excluir</button>
+                </tr>
+            </tbody>
+        </table>
+        -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
